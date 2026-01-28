@@ -1,6 +1,10 @@
+# TODO NEXT (urgent)
+- ditch sha256/512 for argon2id with some sensible settings
+  - sha256/512 is too fast to be robustly secure
+
 # TODO
 - 7zip compression encrypted/non-encrypted
-  - `.random_noise.bin` file in public output pre encrypted compress, filled with random binary, to break sig checks if they are in play
+  - `.$random_hidden_filename` file in public output pre encrypted compress, filled with secure random binary, to break sig checks if they are in play
 - helper txt
   - cmds to all-in-one hash checks?
   - script?
