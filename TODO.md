@@ -6,6 +6,16 @@
   - script?
 - keyfile name/output dir/7zip archive with same name
 - handle special chars in passphrases and shit
-- writeup
 - usage
 - cli options
+
+## Writeup
+- usage scenarios
+- threat modeling
+  - side channel attacks
+  - info leaks
+    - ip leaks
+    - device fingerprinting
+    - osint fails
+- key/passphrase/salt storage
+- key/passphrase/salt destruction
