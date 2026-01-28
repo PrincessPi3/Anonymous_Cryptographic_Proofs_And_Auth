@@ -19,3 +19,6 @@
     - osint fails
 - key/passphrase/salt storage
 - key/passphrase/salt destruction
+
+## Write Standard to Share
+- ohfuck
